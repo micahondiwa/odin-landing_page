@@ -9,6 +9,13 @@ header {
     font-style: extra-bold;
 }
 
+#section2{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+
+}
+
 footer {
     background-color: #1F2937;
 }
