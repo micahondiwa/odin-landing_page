@@ -103,4 +103,53 @@
     margin-right: 410px;
 }
 
+.about-container {
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.photo-grid-container {
+    display: flex;
+    flex: 1;
+}
 
+.photo1, 
+.photo2,
+.photo3,
+.photo4 {
+    padding: 1px;
+    /*border: 1px solid #3882f6;*/
+}
+
+.photo-grid-container span {
+    padding: 1px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 3px;
+    justify-content: center;
+}
+
+.action-call-container {
+    display: flex;
+    flex: 1;
+    padding: 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 16px;
+
+    padding: 38px;
+}
