@@ -121,8 +121,9 @@
 .photo2,
 .photo3,
 .photo4 {
-    padding: 1px;
     /*border: 1px solid #3882f6;*/
+    justify-content: space-between;
+    padding: 14px;
 }
 
 .photo-grid-container span {
