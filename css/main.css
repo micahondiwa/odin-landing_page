@@ -134,14 +134,15 @@
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    padding: 3px;
-    justify-content: center;
+    padding: 150px;
 }
 
 .action-call-container {
     display: flex;
     flex: 1;
     padding: 40px;
+    background-color: #3882F6;
+    margin: 116px;
 }
 
 .footer {
@@ -149,7 +150,7 @@
     justify-content: center;
     background-color: #1F2937;
     color: #E5E7EB;
-    font-size: 16px;
+    font-size: 18px;
 
     padding: 38px;
 }
