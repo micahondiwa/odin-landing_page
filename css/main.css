@@ -7,6 +7,9 @@
 .header-container {
     background-color: #1F2937;
     justify-content: center;
+    padding-bottom: 8%;
+    padding-left: 15%;
+    padding-top: 1%;
 }
 
 .menu {
@@ -20,7 +23,7 @@
     justify-content: end;
 }
 
-.home, 
+.home,
 .about,
 .blogs,
 .contact {
@@ -28,15 +31,71 @@
     color: #E5E7Eb;
     display: flex;
     justify-content: center;
+    font-size: 18px;
 }
 
 .menu .logo {
-   font-size: 24px;
-   color: #f9faf8; 
-   display: flex;
-   justify-content: center;
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.titles-container {
+    background-color: #1F2937;
+    padding-top: 10px;
+    display: flex;
 }
 
 .titles {
-    justify-content: flex-start;
+    width: 1500px;
 }
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    padding-left: 15%;
+    margin-bottom: 1%;
+}
+
+.subtext {
+    color: #E5E7Eb;
+    font-size: 18px;
+    padding-left: 10%;
+    margin-bottom: 1%;
+}
+
+.signup button{
+    font-size: 18px;
+    font-weight: bold;
+
+    color: #FFFFFF;
+    background-color: #5995DA;
+
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+
+    margin-left: 15%;
+    margin-bottom: 1%;
+
+    padding: 10px 40px;
+
+    display: flex;
+}
+
+.signup button:hover {
+    background-color: #76AEED;
+}
+
+.signup button:active {
+    background-color: #407FC7;
+}
+
+.titles .image1 {
+    flex: 1;
+}
+
+
