@@ -106,7 +106,8 @@
 .about-container {
     display: flex;
     justify-content: center;
-    padding: 3px;
+    padding-bottom: 15px;
+    padding-top: 15px;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
